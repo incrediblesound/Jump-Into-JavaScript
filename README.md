@@ -44,6 +44,8 @@ And turn it into a structure that the computer can easily manipulate:
 [ { name: 'John', age: 31, sex: 'm' }, { name: 'Stacy', age: 24, sex: 'f' } ]
 ```
 
+When you're ready, you can take a look at the program that does this [right here](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0.1_parser.js).
+
 So programming can take raw data of any kind and turn it into structured data. But what do we do what that structured data? Once we have our data in a machine readable format, like the one above with the brackets and the curl braces, we can easily turn the data into a chart or a list displayed in a website. We can then create a user interface to manipulate and change the data. This all seems very basic, but think of all the things we can do with the ability to organize, display and manipulate data.
 
 ##You’re Going to Code, and You’re Going to Like it
