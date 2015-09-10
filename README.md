@@ -136,6 +136,6 @@ Backend development generally refers to software that runs on a server. It also 
 
 ##What else should I do other than learn all this stuff?
 
-1) Pay attention to what's happening in the community at [Hacker News](https://news.ycombinator.com/)
-2) Look up all your tough questions on [Stack Overflow](http://stackoverflow.com/)
-3) Read about JavaScript, CSS and HTML at [MDN](https://developer.mozilla.org/en-US/)
+1) Pay attention to what's happening in the community at [Hacker News](https://news.ycombinator.com/)    
+2) Look up all your tough questions on [Stack Overflow](http://stackoverflow.com/)    
+3) Read about JavaScript, CSS and HTML at [MDN](https://developer.mozilla.org/en-US/)    
