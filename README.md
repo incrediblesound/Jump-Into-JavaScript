@@ -1,8 +1,8 @@
-##Jumping into programming
+#Jumping into programming
 
 Changing your career to become a programmer is not an easy task. It takes dedication and perseverance, but it is very doable and the rewards are great. I took great pains to enact this transition in my life within the span of one year. I was successful and I wish to write out my ideas about why I was successful along with some tips for your own journey.
 
-#What is this book?
+##What is this book?
 
 This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to a lists of resources that you will be of value to you while you're learning. Some of them, like the website where this book is hosted and [stack overflow](www.stackoverflow.com), you might use throughout your entire career.
 
@@ -20,7 +20,7 @@ alert('Good job!')
 
 Alternatively, you can download this template and open it in your browser. Any changes you make in that template will run when you refresh the page, and anything you add to that template will be accessible in your JavaScript console.
 
-#What the Heck is Coding?
+##What the Heck is Coding?
 
 First of all, it’s good to be really clear about what computer programming really is. Your computer is a device that stores data, displays data, modifies data, and takes user input. Programming is the act of writing down instructions that tell the computer how to do any one of these things. You can tell it to break up a sentence into words and then count the words, you can tell it to draw a circle on the screen, you can tell it to save some information into a database, but it all revolves around manipulating data. 
 
@@ -46,13 +46,13 @@ And turn it into a structure that the computer can easily manipulate:
 
 So programming can take raw data of any kind and turn it into structured data. But what do we do what that structured data? Once we have our data in a machine readable format, like the one above with the brackets and the curl braces, we can easily turn the data into a chart or a list displayed in a website. We can then create a user interface to manipulate and change the data. This all seems very basic, but think of all the things we can do with the ability to organize, display and manipulate data.
 
-#You’re Going to Code, and You’re Going to Like it
+##You’re Going to Code, and You’re Going to Like it
 
 People who studied computer science in college have the advantage of a degree which has both cultural significance and practical use. If you’re reading this it’s because you do not have that degree, and as a result you will have to fill the void of confidence that your employer will have as a result of that lack. Luckily in most startups, and even some big companies, there is no hard requirement for a computer science degree. That means that you are able to, and in fact must, make up for that elsewhere.
 
 The easiest way to make up for that lack is with productivity. You have to code, and preferable a lot. When I say a lot, I mean you should code for hours every day. If you take a day or two off, that’s fine, but if you find yourself slipping for weeks at a time, this career path probably isn’t for you. Because it’s not so easy to just sit down and code every day, I’m going to go over some ideas about how to do it.
 
-#Find some aspect of coding that you enjoy
+##Find some aspect of coding that you enjoy
 
 This is extremely important. You can do many things with code, and you should find one of those things and have fun with it. Here are some ideas:
 
@@ -66,7 +66,7 @@ Art — Software is open ended and creative. You can make almost anything you ca
 
 This list is not exhaustive, but the important thing is to play with code. Find something to enjoy about coding then you will not have a hard time doing it every day and your experience and passion will be apparent to your future employer.
 
-#Start a Portfolio
+##Start a Portfolio
 
 Remember when I made you find the directory with the JavaScript lessons in it and view those lessons? Now is the time for your second assignment: make an account for yourself on this website. This website is called [GitHub](www.github.com) and it is a place for programmers to host open source projects. Interestingly, though, it has also become a place for people to showcase personal projects and a place to find material to learn from. Having an account on GitHub is not enough, you also need to learn and understand version control, of which Git is just one representative. To that end, you can use these links:
 
@@ -74,7 +74,7 @@ Remember when I made you find the directory with the JavaScript lessons in it an
 
 Once you have a good idea about how Git works, you can start using this website to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to integrate those changes into the official code base. So how about as a third assignment you fork this book into your own profile so that you don't have to come to my profile every time to read it. You can even make changes or additions, if you think it needs them, and submit a pull request to improve the book.
 
-#Programs, Libraries and Frameworks
+##Programs, Libraries and Frameworks
 
 There is a fundamental divide in software between programs, which accomplish some purpose, and libraries, which provide tools for the programmer to write programs. To be a competent programmer, you will have to know both how to write programs and how to use libraries. There are a some things that programmers do a lot, for example iterating over a list of items. Lets say I have my list of people from above…
 
@@ -114,4 +114,4 @@ Well it turns out that abstractions like this are so useful and so common that a
 
 There’s another thing called a framework which is like a library but is serves a slightly different purpose. To write a complicated program, there is usually a lot of boilerplate code that you have to write just to get started. Frameworks provide a basic set of abstractions to reduce the amount of time you spend on boilerplate code. For example, to write complex web applications, we usually use the MVC paradigm which stands for Model View Controller. In this paradigm, the model is an abstraction for holding and managing data, the view is the layer for displaying the data in an interface of some kind, and the controller manages the changes that happen as a result of user interaction with the view. As a result a web frameworks might include built-in abstractions for models views and controllers, like Angular.js, or it might focus on one part of that paradigm and let you determine how to manage the rest, like React.js which just handles the view.
 
-#What do do other than learn all this stuff
+##What to do other than learn all this stuff
