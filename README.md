@@ -8,7 +8,7 @@ This book has three parts. The part you're looking at now is a high level overvi
 
 The third part is a set of files contained in the directory called "code". Your first assignment is to find that directory and view those files. There many not be many there now because this is a work in progress. Those files are simple lessons on basic JavaScript concepts. Other people have already writtin very good books on JavaScript and I don't want to duplicate their effort, so they will focus on using code to demonstrate the concepts.
 
-That brings me to my first reference link. Much of what I write below consists of the why and how of becoming a software engineer. The first step is, of course, to become familiar with the JavaScript programming language. So here it is, the
+That brings me to my first reference link. Much of what I write below consists of the why and how of becoming a software engineer. The first step is, of course, to become familiar with the JavaScript programming language. So here it is:
 
 [PLACES TO LEARN JAVASCRIPT ONLINE](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/learn_javascript.md)
 
@@ -72,32 +72,36 @@ Remember when I made you find the directory with the JavaScript lessons in it an
 
 [PLACES TO LEARN ABOUT GIT AND VERSION CONTROL](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/version_control.md)
 
-Once you have a good idea about how Git works, you can start using this website to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to integrate those changes into the official code base. So how about as a third assignment you fork this book into your own profile so that you don't have to come to my profile every time to read it. You can even make changes or additions, if you think it needs them, and submit a pull request to improve the book.
+Once you have a good idea about how Git works, you can start using GitHub to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to integrate those changes into the official code base. These are extra features that GitHub adds on top of Git. Another cool feature is the ability to open up issues, so that if you find a problem in someone's code you can tell them about it by opening an issue. 
+
+You can try forking this book into your own profile as practice, and then you don't have to come to my profile every time to read it. If you find a mistake you can change it yourself and submit a pull request. You can also open issues against this repository (make sure you open an issue in the main reposity, i.e. the one at www.github.com/incrediblesound) and I will try to address the problem.
+
+When you start developing your own projects, use version control and store your projects (as long as they are not private) on Github. This will serve as a backup, allow other programmers to use and contribute to your work, and also serve as a kind of online portfolio.
 
 ##Programs, Libraries and Frameworks
 
-There is a fundamental divide in software between programs, which accomplish some purpose, and libraries, which provide tools for the programmer to write programs. To be a competent programmer, you will have to know both how to write programs and how to use libraries. There are a some things that programmers do a lot, for example iterating over a list of items. Lets say I have my list of people from above…
+There is a functional difference between programs, which accomplish some purpose, and libraries, which provide tools for the programmer to write programs. To be a competent programmer, you will have to know both how to write programs and how to use libraries. There are a some things that programmers do a lot, for example iterating over a list of items. Lets say I have the list of people I made above:
 
 ```javascript
 [ { name: 'John', age: 31, sex: 'm' }, { name: 'Stacy', age: 24, sex: 'f' } ]
 ```
 
-… and I want to print out just the age of each person in the list. We could write a function that goes over the items in the list and prints out the age property of each item. In JavaScript that looks like this:
+I want to print out just the age of each person in the list. We could write a function that goes over the items in the list and prints out the age property of each item. In JavaScript that looks like this:
 
 ```javascript
-function printAge(list){
-  for(var i = 0; i < list.length; i++){
-    console.log(list[i].age);
+function printAge(list){ // printAge takes a list of items
+  for(var i = 0; i < list.length; i++){ // loops through that list
+    console.log(list[i].age); // and prints out the age property of each item
   }
 }
 ```
 
-But what if, in a different place, I want to print out just the names. Then I would have to write this whole function over again but instead of logging listi[i].age I would log list[i].name. It would be much better if I could abstract the idea of doing something to every item in a list, and each time pop in both the list and the function that performs an action on each item. That looks like this:
+But what if, in a different place, I want to print out just the names. Then I would have to rewrite this function but instead of logging listi[i].age I would log list[i].name. It would be much better if I could abstract the idea of doing something to every item in a list, and just insert the list and the function that performs the action on each item. That looks like this:
 
 ```javascript
-function each(list, function){
-  for(var i=0; i<list.length; i++){
-    function(list[i])
+function each(list, iterator){ // each takes a list and an "iterator" function
+  for(var i=0; i < list.length; i++){ // loops through that list
+    iterator(list[i]) // and passes each item into the function
   }
 }
 ```
@@ -107,11 +111,25 @@ and now I can do this:
 each(peopleList, function(person){ console.log(person.age); })
 each(peopleList, function(person){ console.log(person.name); })
 ```
+or even clearer:
+```javascript
+var printName = function(person){ console.log(person.name); }
+var printAge = function(person){ console.log(person.age); }
 
-Well it turns out that abstractions like this are so useful and so common that a whole bunch of them are written out for you in libraries that you can use for free. The abstraction above can be found in Underscore.js or Lodash.js which are both libraries of useful functions. When you are starting out it is a good exercise to write these functions yourself, but when you start writing your own programs you should use libraries so that you can focus on building your project instead to re-writing the same basic code over and over again.
+each(peopleList, printName);
+each(peopleList, printAge);
+```
 
-[LIST OF USEFUL LIBRARIES](link)
+Well it turns out that abstractions like this are so useful and so common that many of them are written out for you in libraries that you can use for free. The abstraction above can be found in Underscore.js or Lodash.js which are both libraries of useful functions. When you are starting out it is a good exercise to write these functions yourself, but when you start writing your own programs you should use libraries so that you can focus on building your project instead to re-writing the same basic code over and over again.
 
-There’s another thing called a framework which is like a library but is serves a slightly different purpose. To write a complicated program, there is usually a lot of boilerplate code that you have to write just to get started. Frameworks provide a basic set of abstractions to reduce the amount of time you spend on boilerplate code. For example, to write complex web applications, we usually use the MVC paradigm which stands for Model View Controller. In this paradigm, the model is an abstraction for holding and managing data, the view is the layer for displaying the data in an interface of some kind, and the controller manages the changes that happen as a result of user interaction with the view. As a result a web frameworks might include built-in abstractions for models views and controllers, like Angular.js, or it might focus on one part of that paradigm and let you determine how to manage the rest, like React.js which just handles the view.
+There’s another thing called a framework which a library but that serves specific purpose. To write a complicated program, there is usually a lot of boilerplate code that you need to write just to get started. Frameworks provide a basic set of abstractions to reduce the amount of time you spend on boilerplate code. For example, to write complex web applications, we often use the MVC paradigm which stands for model, view, controller. In this paradigm, "model" is an abstraction for holding and managing data, "view" displays the data in an interface of some kind, and the "controller" manages the changes that happen as a result of user interaction with the view. So a web framework, like Angular.js, might include built-in abstractions for models views and controllers or it might focus on one part of that paradigm and let you determine how to manage the rest, like React.js, which just handles the view.
 
-##What to do other than learn all this stuff
+[LIST OF USEFUL LIBRARIES](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/libraries.md)
+
+##Frontend and Backend development
+
+If you are learning JavaScript, chances are you are going to go into web development. Web development has two basic categories: frontend and backend. Frontend basically refers to code that is run in a browser like Chrome or Firefox. Another way to think of it is as the part that the user sees and interacts with. It encompasses web applications, html, css, and web design. If you think you might like the visual, interactive part of web development more, you should focus on getting a solid foundation in html, css, and JavaScript libraries.
+
+Backend development generally refers to software that runs on a server. It also tends to include databases, and encompases server development, data storage, and API development. If you're more interested in things like data storage and management, networks and servers, you should focus on your proficiency with [Node.js](https://nodejs.org/en/), databases, and server frameworks.
+
+[LIST OF DATABASES](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/databases.md)
