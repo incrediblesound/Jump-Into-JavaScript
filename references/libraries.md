@@ -6,4 +6,6 @@
 
 [Backbone](http://backbonejs.org/) is an oldy but a goody, a tried and true framework for building web apps.
 
+[Three.js](http://threejs.org/) is a framework for building 3D games and visualizations in the browser.
+
 [A database of JavaScript libraries](https://www.javascripting.com/)

@@ -133,3 +133,9 @@ If you are learning JavaScript, chances are you are going to go into web develop
 Backend development generally refers to software that runs on a server. It also tends to include databases, and encompases server development, data storage, and API development. If you're more interested in things like data storage and management, networks and servers, you should focus on your proficiency with [Node.js](https://nodejs.org/en/), databases, and server frameworks.
 
 [LIST OF DATABASES](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/databases.md)
+
+##What else should I do other than learn all this stuff?
+
+1) Pay attention to what's happening in the community at [Hacker News](https://news.ycombinator.com/)
+2) Look up all your tough questions on [Stack Overflow](http://stackoverflow.com/)
+3) Read about JavaScript, CSS and HTML at [MDN](https://developer.mozilla.org/en-US/)
