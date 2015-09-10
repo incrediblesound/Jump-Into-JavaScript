@@ -1,4 +1,4 @@
-#Jumping into programming
+#Jumping into JavaScript
 
 Changing your career to become a programmer is not an easy task. It takes dedication and perseverance, but it is very doable and the rewards are great. I took great pains to enact this transition in my life within the span of one year. I was successful and I wish to write out my ideas about why I was successful along with some tips for your own journey.
 
@@ -10,7 +10,7 @@ The third part is a set of files contained in the directory called "code". Your 
 
 That brings me to my first reference link. Much of what I write below consists of the why and how of becoming a software engineer. The first step is, of course, to become familiar with the JavaScript programming language. So here it is, the
 
-[PLACES TO LEARN JAVASCRIPT ONLINE](link)
+[PLACES TO LEARN JAVASCRIPT ONLINE](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/learn_javascript.md)
 
 Some of these resources have built in JavaScript interpreters where you can write and execute code. If you find yourself wanting to write code and don't have a place to do it, you can always open up the JavaScript console in your browser and use that to execute code. Try to find that console in your browser now, type in this line of code and press enter:
 
@@ -18,7 +18,7 @@ Some of these resources have built in JavaScript interpreters where you can writ
 alert('Good job!')
 ```
 
-Alternatively, you can download this template and open it in your browser. Any changes you make in that template will run when you refresh the page, and anything you add to that template will be accessible in your JavaScript console.
+Alternatively, you can download [this template](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0_template.html) and open it in your browser. Any changes you make in that template will run when you refresh the page, and anything you add to that template will be accessible in your JavaScript console.
 
 ##What the Heck is Coding?
 
@@ -70,7 +70,7 @@ This list is not exhaustive, but the important thing is to play with code. Find 
 
 Remember when I made you find the directory with the JavaScript lessons in it and view those lessons? Now is the time for your second assignment: make an account for yourself on this website. This website is called [GitHub](www.github.com) and it is a place for programmers to host open source projects. Interestingly, though, it has also become a place for people to showcase personal projects and a place to find material to learn from. Having an account on GitHub is not enough, you also need to learn and understand version control, of which Git is just one representative. To that end, you can use these links:
 
-[PLACES TO LEARN ABOUT GIT AND VERSION CONTROL](link)
+[PLACES TO LEARN ABOUT GIT AND VERSION CONTROL](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/version_control.md)
 
 Once you have a good idea about how Git works, you can start using this website to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to integrate those changes into the official code base. So how about as a third assignment you fork this book into your own profile so that you don't have to come to my profile every time to read it. You can even make changes or additions, if you think it needs them, and submit a pull request to improve the book.
 
