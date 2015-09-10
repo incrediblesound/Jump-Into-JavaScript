@@ -4,7 +4,7 @@ Changing your career to become a programmer is not an easy task. It takes dedica
 
 ##What is this book?
 
-This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to a lists of resources that you will be of value to you while you're learning. Some of them, like the website where this book is hosted and [stack overflow](www.stackoverflow.com), you might use throughout your entire career.
+This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to a lists of resources that you will be of value to you while you're learning. Some of them, like the website where this book is hosted and [stack overflow](http://www.stackoverflow.com), you might use throughout your entire career.
 
 The third part is a set of files contained in the directory called "code". Your first assignment is to find that directory and view those files. There many not be many there now because this is a work in progress. Those files are simple lessons on basic JavaScript concepts. Other people have already writtin very good books on JavaScript and I don't want to duplicate their effort, so they will focus on using code to demonstrate the concepts.
 
