@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Basic Template</title>
+</head>
+<body>
+<script type="text/javascript">
+// you can write any JavaScript here and it will execute when you load
+// this file in your browser. Also, functions and variables that you define here 
+// will be accessible in your JavaScript console, so if you open up your
+// console and type "person" you will see the value defined below:
+var person = { name: 'John', age: 31 }
+
+// see if you can invoke utilize this function from the console:
+
+var addFive = function(x){ 
+	return x + 5; 
+}
+
+// this one is trickier, it's a function that returns a function!
+// see if you can figure out how to use it
+
+var addValues = function(x){
+	// the return value of this function is a new function
+	return function(y){
+		// this function has access to the above parameter "x"
+		// because of a feature of JavaScript called closure
+		return x + y;
+	}
+}
+
+</script>
+</body>
+</html>
