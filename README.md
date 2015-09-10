@@ -136,6 +136,12 @@ Backend development generally refers to software that runs on a server. It also 
 
 [LIST OF DATABASES](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/databases.md)
 
+##Learn Something New, Make an App
+
+One technique I used that was instrumental in teaching myself JavaScript, was to make an app every time I learned a new technology. It doesn't matter if the new technology is a data structure, an algorithm, a library or a new effect in CSS. If you just learned how to build a website with HTML you should make yourself a blog, if you just learned how to use the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) well then you can make a jukebox.
+
+The important thing is to not be constrained by anything during this process. Your app doesn't have to be perfect, it doesn't have to look good, it doesn't even have to be useful! When I first discovered [neo4j](http://neo4j.com/) I made an app for creating [chains of related concepts](https://github.com/incrediblesound/conceptual-chains). It's totally useless. The important thing is to force yourself to use every new technology to create some kind of working prototype. It is during that process that you will encounter the problems unique to sofware development: looking at documentation, using different technologies together, solving problems creatively with code, and debuggin eveything once its written. 
+
 ##What else should I do other than learn all this stuff?
 
 1) Pay attention to what's happening in the community at [Hacker News](https://news.ycombinator.com/)    
