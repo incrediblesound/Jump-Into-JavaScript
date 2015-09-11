@@ -155,15 +155,15 @@ Luckily, whiteboarding is more predictable and there are ways to prepare for it.
 
 Here are the steps:
 
-Interviewer describes to you a problem that he/she wants you to solve
+1. Interviewer describes to you a problem that he/she wants you to solve
 
-You repeat the problem back to the interviewer to make sure you understand it correctly
+2. You repeat the problem back to the interviewer to make sure you understand it correctly
 
-If the problem is just a simple algorithm, like fizzbuzz, you can probably just
+3. If the problem is just a simple algorithm, like fizzbuzz, you can probably just
 go ahead and take a stab at solving it
 
-If the problem is more complex, you want to talk the interviewer about how you will solve the problem, possible drawing out some abstract diagrams along the way. This step is critical because it gives the interviewer insight into your problem solving process. Also, during this step they might help you by pointing out misunderstandings or dead ends.
+4. If the problem is more complex, you want to talk the interviewer about how you will solve the problem, possible drawing out some abstract diagrams along the way. This step is critical because it gives the interviewer insight into your problem solving process. Also, during this step they might help you by pointing out misunderstandings or dead ends.
 
-Once you think you have reached a solution, you can write it out on the whiteboard in code.
+5. Once you think you have reached a solution, you can write it out on the whiteboard in code.
 
 The above steps help you to remove any possible complication that could trip you up while you're whiteboarding. Imagine how frustrating it would be if, in the middle of writing a function out on the whiteboard, you realize you misunderstood the problem. You have to erase a bunch of code and start over, amost certainly in a worse mental state than when you started. It would be equally as embarassing if you finished writing out the function and the interviewer points out that your solution doesn't work. Doing all the high level work of understanding the problem and the solution before you start writing code will save you from those mistakes and show the interviewer how you solve problems. With that out of the way it is fairly trivial to demonstrate, through whiteboarding, that you proficient at composing functions and data structures.
