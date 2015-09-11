@@ -4,21 +4,21 @@ Changing your career to become a programmer is not an easy task. It takes dedica
 
 ##What is this book?
 
-This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to a lists of resources that you will be of value to you while you're learning. Some of them, like the website where this book is hosted and [stack overflow](http://www.stackoverflow.com), you might use throughout your entire career.
+This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to lists of resources that will be of value to you while you're learning. In each category I'll give you a few links that I think are extremely important and then a link to a more comprehensive list so that you can explore further. 
 
-The third part is a set of files contained in the directory called "code". Your first assignment is to find that directory and view those files. There many not be many there now because this is a work in progress. Those files are simple lessons on basic JavaScript concepts. Other people have already writtin very good books on JavaScript and I don't want to duplicate their effort, so they will focus on using code to demonstrate the concepts.
+The third part is a set of files contained in the directory called "code". Your first assignment is to find that directory and view those files. Those files are introductory lessons to basic JavaScript concepts. Other people have already written very good books on JavaScript and I don't want to duplicate their effort, so the code files focus on using code to demonstrate concepts.
 
 That brings me to my first reference link. Much of what I write below consists of the why and how of becoming a software engineer. The first step is, of course, to become familiar with the JavaScript programming language. So here it is:
 
 [PLACES TO LEARN JAVASCRIPT ONLINE](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/learn_javascript.md)
 
-Some of these resources have built in JavaScript interpreters where you can write and execute code. If you find yourself wanting to write code and don't have a place to do it, you can always open up the JavaScript console in your browser and use that to execute code. Try to find that console in your browser now, type in this line of code and press enter:
+Some of these resources have built in JavaScript interpreters where you can write and execute code. If you find yourself wanting to write code and don't have a place to do it, you can always open up the JavaScript console in your browser and use that to execute code. Try to find that console in your browser now. Once you find it, type in this line of code and press enter:
 
 ```javascript
 alert('Good job!')
 ```
 
-Alternatively, you can download [this template](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0_template.html) and open it in your browser. Any changes you make in that template will run when you refresh the page, and anything you add to that template will be accessible in your JavaScript console.
+You can also download [this template](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0_template.html) and open it in your browser. Any changes you make in that template will run when you refresh the page, and any functions or variables you add to that template will be accessible in your JavaScript console.
 
 ##What the Heck is Coding?
 
@@ -50,9 +50,9 @@ So programming can take raw data of any kind and turn it into structured data. B
 
 ##You’re Going to Code, and You’re Going to Like it
 
-People who studied computer science in college have the advantage of a degree which has both cultural significance and practical use. If you’re reading this it’s because you do not have that degree, and as a result you will have to fill the void of confidence that your employer will have as a result of that lack. Luckily in most startups, and even some big companies, there is no hard requirement for a computer science degree. That means that you are able to, and in fact must, make up for that elsewhere.
+People who studied computer science in college have the advantage of a degree which has both cultural significance and practical use. If you’re reading this it’s because you do not have that degree, and as a result you will have to fill that void with confidence, competence and passion. Luckily in most startups, and even some big companies, there is no hard requirement for a computer science degree. That means that you confidence in the ability to solve problems with code, your passion for building software, and your competence with the tools and principles of software engineering will be enough for you to get in.
 
-The easiest way to make up for that lack is with productivity. You have to code, and preferable a lot. When I say a lot, I mean you should code for hours every day. If you take a day or two off, that’s fine, but if you find yourself slipping for weeks at a time, this career path probably isn’t for you. Because it’s not so easy to just sit down and code every day, I’m going to go over some ideas about how to do it.
+Competence and confidence are best obtained through productivity. You have to code, and you should code a lot. When I say a lot, I mean you should code for hours every day. If you take a day or two off, that’s fine, but if you find yourself slipping for weeks at a time, this career path probably isn’t for you. Because it’s not so easy to just sit down and code every day, I’m going to go over some ideas about how to do it.
 
 ##Find some aspect of coding that you enjoy
 
