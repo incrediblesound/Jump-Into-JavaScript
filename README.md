@@ -1,18 +1,22 @@
 #Jumping into JavaScript
 
-Changing your career to become a programmer is not an easy task. It takes dedication and perseverance, but it is very doable and the rewards are great. I took great pains to enact this transition in my life within the span of one year. I was successful and I wish to write out my ideas about why I was successful along with some tips for your own journey.
+Changing your career to become a programmer is not an easy task. It takes dedication and perseverance, but it is very doable and the rewards are great. I took great pains to make this transition in my life and successfully found work about a year and a half after I started learning JavaScript. This E-Book is a guide for other adults would are starting from zero and need resources and strategies for learning computer programming.
 
 ##What is this book?
 
-This book has three parts. The part you're looking at now is a high level overview of some fundamental issues you'll need to confront in your journey to becoming a software engineer. This part also contains links to lists of resources that will be of value to you while you're learning. In each category I'll give you a few links that I think are extremely important and then a link to a more comprehensive list so that you can explore further. 
+This book has three parts. The part you're looking at now is a high level overview of some fundamental topics you'll need to understand to become a software engineer. This part also contains links to lists of resources that will be of value to you while you're learning. In each resource list I'll give you a few links that I think are extremely important and then a link to a more comprehensive list so that you can explore further. 
 
-The third part is a set of files contained in the directory called "code". Your first assignment is to find that directory and view those files. Those files are introductory lessons to basic JavaScript concepts. Other people have already written very good books on JavaScript and I don't want to duplicate their effort, so the code files focus on using code to demonstrate concepts.
+The third part is a set of files contained in the directory called "code". Those files are introductory lessons to basic JavaScript concepts. Other people have already written very good books on JavaScript and I don't want to duplicate their effort, so the code files focus on using code to demonstrate concepts.
 
-That brings me to my first reference link. Much of what I write below consists of the why and how of becoming a software engineer. The first step is, of course, to become familiar with the JavaScript programming language. So here it is:
+* Task #1: Find the directory called "code" in this repository and view one of the files.
+
+Much of what I write below consists of the why and how of becoming a software engineer. The first and most important step is, of course, to become familiar with the JavaScript programming language. So here it is, your first resource link:
 
 [PLACES TO LEARN JAVASCRIPT ONLINE](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/learn_javascript.md)
 
-Some of these resources have built in JavaScript interpreters where you can write and execute code. If you find yourself wanting to write code and don't have a place to do it, you can always open up the JavaScript console in your browser and use that to execute code. Try to find that console in your browser now. Once you find it, type in this line of code and press enter:
+Some of these resources have built in JavaScript interpreters where you can write and execute code. If you find yourself wanting to write code and aren't sure where to do it, you can always open up the JavaScript console in your browser and use that to execute code. 
+
+* Task #2 Find the developer console in your browser. Once you find it and open it, type in this line of code and press enter:
 
 ```javascript
 alert('Good job!')
@@ -22,9 +26,9 @@ You can also download [this template](https://github.com/incrediblesound/Jump-In
 
 ##What the Heck is Coding?
 
-First of all, it’s good to be really clear about what computer programming really is. Your computer is a device that stores data, displays data, modifies data, and takes user input. Programming is the act of writing down instructions that tell the computer how to do any one of these things. You can tell it to break up a sentence into words and then count the words, you can tell it to draw a circle on the screen, you can tell it to save some information into a database, but it all revolves around manipulating data. 
+First of all, it’s good to be really clear about what computer programming really is. Your computer is a device that stores data, displays data, modifies data, and takes user input. Programming is the act of writing down instructions that tell the computer how to do any one of these things. You can tell it to break up a sentence into words and then count the words, you can tell it to draw a circle on the screen, you can tell it to save some information into a database, there are very few limitations but it all revolves around manipulating data. 
 
-Think about a website that displays stock market data. A server somewhere interprets a TCP request, which is a chunk of data, it responds by fetching raw data from somewhere and sending it to your browser. The raw numbers are fed into a program running in your browser that turns them in charts, and then the user can select a specific type of data or a specific date range and the program responds by modifying the charts to display the data in the way that the user selected.
+Think about a website that displays stock market data. A server somewhere interprets a TCP request, which is a chunk of data, it responds by fetching stock data from somewhere and sending it to your browser. The raw numbers are fed into a program running in your browser that turns them in charts, and then the user can select a specific type of data or a specific date range and the program responds by modifying the charts to display the data in the way that the user selected.
 
 You can simplify the entire process like this: 
 
@@ -46,7 +50,7 @@ And turn it into a structure that the computer can easily manipulate:
 
 When you're ready, you can take a look at the program that does this [right here](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0.1_parser.js).
 
-So programming can take raw data of any kind and turn it into structured data. But what do we do what that structured data? Once we have our data in a machine readable format, like the one above with the brackets and the curl braces, we can easily turn the data into a chart or a list displayed in a website. We can then create a user interface to manipulate and change the data. This all seems very basic, but think of all the things we can do with the ability to organize, display and manipulate data.
+So programming can take raw data of any kind and turn it into structured data. But what do we do what that structured data? Once we have our data in a machine readable format, like the one above with the brackets and the curly braces, we can easily turn the data into a chart or a list displayed in a website. We can then create a user interface to manipulate and change the data. This all seems very basic, but think of all the things we can do with the ability to organize, display and manipulate data.
 
 ##You’re Going to Code, and You’re Going to Like it
 
@@ -70,15 +74,19 @@ This list is not exhaustive, but the important thing is to play with code. Find 
 
 ##Start a Portfolio
 
-Remember when I made you find the directory with the JavaScript lessons in it and view those lessons? Now is the time for your second assignment: make an account for yourself on this website. This website is called [GitHub](www.github.com) and it is a place for programmers to host open source projects. Interestingly, though, it has also become a place for people to showcase personal projects and a place to find material to learn from. Having an account on GitHub is not enough, you also need to learn and understand version control, of which Git is just one representative. To that end, you can use these links:
+Now is the time for your third assignment. 
+
+* Task #3: Make an account for yourself on this website. 
+
+No, they're not paying me to get you to sign up, it's just really important that you do. You can read [this article](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) to get a better understanding of why. This website is called [GitHub](www.github.com) and it is a place for programmers to host open source projects. Interestingly, though, it has also become a place for people to showcase personal projects and a place to find material to learn from. Having an account on GitHub is not enough, you also need to learn and understand version control, of which Git is just one kind. To that end, you can use these links:
 
 [PLACES TO LEARN ABOUT GIT AND VERSION CONTROL](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/references/version_control.md)
 
-Once you have a good idea about how Git works, you can start using GitHub to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to integrate those changes into the official code base. These are extra features that GitHub adds on top of Git. Another cool feature is the ability to open up issues, so that if you find a problem in someone's code you can tell them about it by opening an issue. 
+Once you have a good idea about how Git works, you can start using GitHub to store your projects. One of the cool things about this website is that it allows you to "fork" peoples projects into your own profile, make your own changes, and then submit a "pull request" to marge those changes into the official code base. These are extra features that GitHub adds on top of Git. Another cool feature is the ability to open up issues: if you find a problem in someone's code, or if you want a feature that their code lacks, you can tell them about it by opening an issue. 
 
-You can try forking this book into your own profile as practice, and then you don't have to come to my profile every time to read it. If you find a mistake you can change it yourself and submit a pull request. You can also open issues against this repository (make sure you open an issue in the main reposity, i.e. the one at www.github.com/incrediblesound) and I will try to address the problem.
+You can try forking this book into your own profile as practice, and then you don't have to come to my profile every time to read it. If you find a mistake you can change it yourself and submit a pull request. You can also open issues against this repository (make sure you open an issue in the main reposity, i.e. the one at github.com/incrediblesound) and I will try to address the problem.
 
-When you start developing your own projects, use version control and store your projects (as long as they are not private) on Github. This will serve as a backup, allow other programmers to use and contribute to your work, and also serve as a kind of online portfolio.
+When you start developing your own projects, you should always use version control and store your projects (as long as they are not private) on Github. This will serve as a backup, allow other programmers to use and contribute to your work, and also serve as a kind of online portfolio.
 
 ##Programs, Libraries and Frameworks
 
