@@ -1,5 +1,7 @@
-// this code file should give you a very basic introduction
-// to algorithms and the idea of time complexity
+// This code file should give you a very basic introduction to algorithms and time complexity. 
+// Before you go over this code, read the answers to the following stack overflow questions:
+// http://stackoverflow.com/questions/3255/big-o-how-do-you-calculate-approximate-it
+// http://stackoverflow.com/questions/11032015/how-to-find-time-complexity-of-an-algorithm?rq=1
 
 var list = [12, 2, 34, 7, 9, 10 ];
 
@@ -117,12 +119,12 @@ var binaryTreeFactory = function(value){
 		value: value || null,
 		left: null,
 		right: null,
-		insert: function(){...},
+		insert: function(){ //same as above },
 		biggest: function(){
 			if(this.right){
 				// if there is a number bigger than this one in the list,
 				// it is stored in a node on the right property
-				// so repeat this function on that node
+				// so invoke this function again on that node
 				return this.right.biggest();
 			} else {
 				// otherwise we are already at the biggest number
