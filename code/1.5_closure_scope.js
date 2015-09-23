@@ -90,3 +90,52 @@ countOne("GoodBye") //=> { "Hello": 2, "GoodBye": 1 }
 
 countTwo("Puppies") //=> { "Puppies": 1 }
 countTwo("Kittens") //=> { "Puppies": 1, "Kittens": 1 }
+
+// as an exercise, try to write a function that takes a function as input and returns a function
+// that invokes the input function when invoked the first time, but returns undefined or false when invoked
+// every time after that, heres how it should work:
+var once = function(func) {/*special magic*/}
+var sayHello = function(){ console.log("Hello") }
+var sayHelloOnce = once(sayHello);
+sayHelloOnce() // prints "Hello" to the console
+sayHelloOnce() // returns undefined
+
+// The answer is below, but don't look until you've tried it yourself!
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+//~
+var once = function(func){
+	var invokedOnce = false;
+	return function(){
+		if(!invokedOnce){
+			invokedOnce = true;
+			func();
+		}
+	}
+}
