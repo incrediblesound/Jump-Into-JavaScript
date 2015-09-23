@@ -6,7 +6,7 @@ Changing your career to become a programmer is not an easy task. It takes dedica
 
 This book has three parts. The part you're looking at now is a high level overview of some fundamental topics you'll need to understand to become a software engineer. This part also contains links to lists of resources that will be of value to you while you're learning. In each resource list I'll give you a few links that I think are extremely important and then a link to a more comprehensive list so that you can explore further. 
 
-The third part is a set of files contained in the directory called "code". Those files are introductory lessons to basic JavaScript concepts. Other people have already written very good books on JavaScript and I don't want to duplicate their effort, so the code files focus on using code to demonstrate concepts.
+The third part is a set of files contained in the directory called "code". Those files are introductory lessons to basic JavaScript concepts. Other people have already written very good books on JavaScript and I don't want to duplicate their effort, so the code files focus on using simple, easy to read code to demonstrate concepts.
 
 * Task #1: Find the directory called "code" in this repository and view one of the files.
 
