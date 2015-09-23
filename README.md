@@ -182,5 +182,5 @@ In the process of learning JavaScript you might come across some difficult probl
 
 [Template for Coding in the Browser](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0_template.html) ~ A file that can be loaded in the browser to provide a template for a website or coding in the browser    
 [Closure and Scope](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/1.5_closure_scope.js) ~ Closure and scope are important things to understand, once you know how to use JavaScript functions well, check out this code file for an introduction.   
-[Mutability](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/1_mutability.js) ~ Mutability is a feature of JavaScript arrays and objects, take a look here to learn about that feature.
+[Mutability](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/1_mutability.js) ~ Mutability is a feature of JavaScript arrays and objects, take a look here to learn about that feature.    
 [Algorithms](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/2_algorithms.js) ~ The study of algorithms is broad and complex, this code file gives a brief introduction.
