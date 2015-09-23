@@ -175,3 +175,12 @@ go ahead and take a stab at solving it
 5. Once you think you have reached a solution, you can write it out on the whiteboard in code.
 
 The above steps help you to remove any possible complication that could trip you up while you're whiteboarding. Imagine how frustrating it would be if you realized you misunderstood the problem in the middle of writing out a solution. You would have to erase a lot of code and start over, amost certainly in a worse mental state than when you started. It's equally frustrating if you finish writing out a solution and the interviewer points out that your solution doesn't work. Doing the high level work of understanding the problem and the solution before you start writing code will save you from those mistakes and give the interviewer insight into how you think. With that out of the way it is fairly trivial to demonstrate, through whiteboarding, that you are proficient at composing functions and data structures.
+
+##Code Files
+
+In the process of learning JavaScript you might come across some difficult problems. Your first line of defense should always be stack overflow, but sometimes you might need some simple code to play with and demonstrate the concepts. As mentioned above, the code files included with this e-book are meant to serve that purpose. Below is a list of the code files currently included as well as a short description of the feature they discuss.
+
+[Template for Coding in the Browser](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/0_template.html) ~ A file that can be loaded in the browser to provide a template for a website or coding in the browser    
+[Closure and Scope](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/1.5_closure_scope.js) ~ Closure and scope are important things to understand, once you know how to use JavaScript functions well, check out this code file for an introduction.   
+[Mutability](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/1_mutability.js) ~ Mutability is a feature of JavaScript arrays and objects, take a look here to learn about that feature.
+[Algorithms](https://github.com/incrediblesound/Jump-Into-JavaScript/blob/master/code/2_algorithms.js) ~ The study of algorithms is broad and complex, this code file gives a brief introduction.
