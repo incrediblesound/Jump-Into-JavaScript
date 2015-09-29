@@ -32,7 +32,7 @@ Think about a website that displays stock market data. A server somewhere interp
 
 You can simplify the entire process like this: 
 
-Raw Data -> Structured Data -> Representation of Data <-> Interaction
+Raw Data -> Structured Data -> Representation of Data <-> User Interaction
 
 Some data is already structured, but not all. You can write a computer program that takes raw data and turns it into structured data, which is much more useful. 
 
